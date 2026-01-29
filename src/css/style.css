@@ -1,0 +1,19 @@
+*, *::before, *::after
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root 
+{
+    --color-bg: rgba(27, 36, 74, 1);
+    --color-blank: white;
+    --color-black: black;
+    --color-red: rgba(249, 79, 109, 1);
+    --color-light-blue: rgba(154, 171, 216, 1);
+}
+
+html {
+    font-size: 18px;
+}
