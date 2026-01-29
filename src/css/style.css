@@ -1,3 +1,8 @@
+@font-face {
+    font-family: CursedTimer;
+    src: url("../fonts/CursedTimer.ttf");
+}
+
 *, *::before, *::after
 {
     box-sizing: border-box;
@@ -12,8 +17,15 @@
     --color-black: black;
     --color-red: rgba(249, 79, 109, 1);
     --color-light-blue: rgba(154, 171, 216, 1);
+    --font-verdana: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html {
     font-size: 18px;
+}
+
+body 
+{
+    background-color: var(--color-bg);
+    font-family: CursedTimer;
 }

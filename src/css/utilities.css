@@ -10,3 +10,20 @@
     border: 0;
   }
   
+
+  .btn {
+    font-family: inherit;
+
+    padding: .5rem;
+    background-color: transparent;
+    border: solid 2px var(--color-light-blue);
+    border-radius: 5px;
+    color: var(--color-light-blue);
+    cursor: pointer;
+}
+
+.btn:hover, .btn:focus
+{
+    background-color: var(--color-light-blue);
+    color: var(--color-black);
+}
