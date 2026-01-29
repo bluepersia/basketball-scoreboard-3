@@ -8,8 +8,36 @@
         <link rel="stylesheet" href="src/css/utilities.css"/>
         <link rel="stylesheet" href="src/css/style.css"/>
     </head>
-    
-    <body>
 
+    <body>
+        <main>
+            <section class="scoreboard" id="scoreboard">
+                <h2 class="sr-only">Scoreboard</h2>
+                <p class="scoreboard__timer" data-timer>Time left:<span class="scoreboard__timer-time" data-timer-time>10 seconds</span></p>
+                <div class="scoreboard__scores">
+                    <div class="score" id="home">
+                        <h3 class="score__team">Home</h3>
+                        <p class="score__score" data-score>0</p>
+                        <div class="score__btns">
+                            <button class="score__btn btn" data-add-one>+1</button>
+                            <button class="score__btn btn" data-add-two>+2</button>
+                            <button class="score__btn btn" data-add-three>+3</button>
+                        </div>
+                    </div>
+                    <div class="score" id="guest">
+                        <h3 class="score__team">Guest</h3>
+                        <p class="score__score" data-score>0</p>
+                        <div class="score__btns">
+                            <button class="score__btn btn" data-add-one>+1</button>
+                            <button class="score__btn btn" data-add-two>+2</button>
+                            <button class="score__btn btn" data-add-three>+3</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="scoreboard__new-game-btn btn" id="new-game-btn">New Game</button>
+            </section>
+        </main>
+
+        <script src="src/js/index.js" type="module"></script>
     </body>
 </html>
